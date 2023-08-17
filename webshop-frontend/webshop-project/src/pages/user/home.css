@@ -1,0 +1,163 @@
+/*.bg-img-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}*/
+
+.bg-img {
+    position: relative;
+}
+
+.bg-img img {
+    width: 100%;
+    margin: auto;
+    height: auto;
+
+}
+
+.bg-slogan {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    color: white;
+    font-weight:700;
+    text-shadow: rgb(148, 147, 147) 3px 0 2px;
+    font-size: 6vw;
+    color: white;
+   
+}
+
+.bg-featured-link {
+    position: absolute;
+    top: 72%;
+    left: 10%;
+    color: whitesmoke;
+    font-size: 2vw;
+    font-weight:700;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 0.3rem;
+    letter-spacing: 0.15em;
+    text-shadow: rgb(134, 133, 133) 3px 0 2px;
+    
+}
+
+#bg-featured-link-arrow {
+    color: var(--accent-color);
+}
+.bg-featured-link:hover {
+    color:white;
+    font-size: 2.05vw;
+    /*text-shadow: white 3px 0 2px;*/
+}
+
+
+#feedback-container {
+    position: fixed;
+    width: 2.7rem;
+    height: 5.5rem;
+    top: 50%;
+    right: 0;
+    border-radius: 8%;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    padding-top: 1rem;
+}
+#feedback-container:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.70)
+}
+
+#feedback-text-box {
+    writing-mode: vertical-lr;
+    margin: auto;
+
+    
+}
+#feedback-link {
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing:1.8px;
+    font-weight: bold;
+ 
+}
+
+.home-featured-container {
+    margin: auto;
+    width: 80%;    
+}
+    
+.featured-products-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;      
+}
+
+.featured-products-container > div > img {
+    width: 16rem;
+}
+
+.main-title {
+    color: #727272;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    
+}
+.main-subtitle {
+    color: #727272;
+    font-size: 1.5rem;
+    font-weight:600;
+    margin-top: 4rem;
+}
+
+.about-section-container {
+    display: flex;
+    margin-top: 7rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10rem;
+    margin-bottom: 3rem;   
+    
+}
+
+
+.about-img-container > img {
+    width: 20rem;
+    /*width: 25vw;*/
+}
+
+
+.main-title-about {
+    color: #727272;
+    font-size: 3rem;
+   margin-bottom: 3rem;
+   
+    
+}
+.main-subtitle-about {
+    color: #727272;
+    font-size: 1.5rem;
+    font-weight:600;
+      
+}
+
+.link-to-page {
+    color: var(--accent-color);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text {
+    margin-bottom: 1rem;
+    
+}
+
+.favorites-title {
+    margin-left: 5rem;
+    color: var(--third-color)
+}
+

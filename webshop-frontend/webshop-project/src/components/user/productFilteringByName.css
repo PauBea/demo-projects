@@ -1,0 +1,50 @@
+.filter-by-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    /*z-index: -1;*/
+}
+.filter-by-name2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+.filter-by-name input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    /*color: var(--second-color);*/
+    border: 1px solid var(--first-color);
+    padding-left: 2rem;
+   /* z-index: -1;*/
+}
+
+#filter-by-name-input {
+    padding-left: 1rem;
+    font-size: 1rem;
+    
+}
+
+.filter-by-name button {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--first-color);
+    cursor: pointer;
+    border: 1px solid var(--third-color);
+    
+}
+
+.admin-filter-sorting {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.admin-filter-sorting select {
+    border-radius: 0.5rem;
+}

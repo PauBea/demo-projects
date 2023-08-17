@@ -1,0 +1,48 @@
+.contact-container {
+    width: 30vw;
+    margin: auto;
+}
+
+.getIntoContact-title {
+    margin-top: 2rem;
+    
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    font-weight:600;
+    display: block;
+    text-align: center;
+}
+.getIntoContact-subtitle{
+    text-align: center;
+    margin-top: 2rem;
+    color:  var(--third-color);
+    font-size: 1.2rem;
+}
+
+#contact-detailes {
+    margin-bottom: 3rem;
+}
+
+#contact-detailes  li {
+    font-size: 1.1rem;
+    text-decoration: underline;
+    margin-top: 1rem;
+    /*margin-bottom: 3rem;*/
+}
+
+.submit-button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: #1687d933;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 1rem;
+
+}
+

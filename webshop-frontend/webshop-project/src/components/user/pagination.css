@@ -1,0 +1,40 @@
+
+.page-turner {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.page-turner .black {
+    color: var(--third-color);
+    cursor: pointer;
+}
+.page-turner .grey {
+    color: var(--first-color);
+    cursor: default;
+}
+.page-turner button {
+    border-radius: 0.6rem;
+    border: solid 0.1rem var(--first-color); 
+    padding: 0.5rem;
+    background-color: white;
+    cursor: pointer;
+    color: var(--third-color)
+}
+#current-button {
+    border: none;
+    padding: 0.6rem;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    color: white;
+}
+
+.current-page {
+    transform: scale(1.1);
+}
+
+.current-page:hover {
+    transform: scale(1.3);
+}

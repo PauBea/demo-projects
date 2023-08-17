@@ -1,0 +1,102 @@
+.user-profile {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+	gap: 10rem;
+}
+.user-profile-container {
+	display: flex;
+	flex-direction: column;
+	width: 10rem;
+	border-right: solid 1.5px var(--first-color);
+	height: 100vh;
+	padding: 2rem;
+	gap: 2rem;
+	background-color: whitesmoke;
+	/*border-radius: 1rem;*/
+	align-items: center;
+	
+}
+
+.user-profile-menu ul {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	
+	
+}
+.user-profile-menu ul li {
+	color: var(--second-color);
+	font-weight: bold;
+}
+
+.user-profile-menu ul li:hover {
+	color: var(--accent-color);
+	font-weight: bold;
+}
+.fa-form {
+	/*display: flex;
+	flex-direction: row;*/
+		/*margin: 0 auto;*/
+	padding-top: 2rem;
+}
+
+.form-columns-container {
+	display: flex;
+	gap: 5rem;
+}
+
+/*.fa-form h1 {
+	text-align: center;
+	margin-bottom: 1.5rem;
+	
+}*/
+.form-title {
+	
+	margin-top: 3rem;
+	color:  var(--accent-color);
+}
+
+.fa-form input,
+.fa-form textarea {
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	border: 0.1rem solid var(--first-color);
+	border-radius: 4px;
+	color:  var(--second-color);
+}
+
+
+.fa-form button {
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	background-color: var(--accent-color);
+	color: #fff;
+	border: none;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	width: 13.5rem;
+}
+
+.fa-form button:hover {
+	transform: scale(1.06);
+}
+
+.fa-form button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.fa-form label {
+	display: flex;
+	flex-direction: row;
+	color:  var(--second-color);
+	justify-content: space-between;
+}
+
+.form-left-column  {
+	align-items: center;
+}

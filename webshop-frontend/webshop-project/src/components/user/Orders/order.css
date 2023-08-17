@@ -1,0 +1,48 @@
+.order-container {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.order-form-title {
+    color: var(--accent-color);
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#order-form-subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.checkbox-container {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    /*margin-bottom: 2rem;
+    margin-top: 2rem;*/
+
+.checkbox-container input {
+    margin-right: 0;
+}
+    
+}
+.order-form-button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 50%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: #1687d933;
+    font-size: 1.3rem;
+    font-weight: 550;
+    padding: 0.4rem;
+}

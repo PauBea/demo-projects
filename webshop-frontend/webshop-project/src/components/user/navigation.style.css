@@ -1,0 +1,131 @@
+.navi-background {
+  
+  background-color: var(--first-color);
+  align-items: center;
+
+}
+.navi {
+  width:80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+}
+
+.navi-center {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.search-container {
+  background-color: white;
+  border-radius: 0.7rem;
+  /*width: 20vw;*/
+  /*width: 20rem;*/
+  border: 0.03rem solid var(--third-color);
+  /*margin-right: 1.3rem;*/
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  padding-left: 0.2rem;
+  
+  
+}
+
+.navi-center input {
+  /*adding: 0.8rem;*/
+  color: var(--third-color);
+  border: none;
+  background: transparent;
+  
+  /*border-radius: 0.7rem;
+  width: 20rem;
+  border: 0.03rem solid var(--third-color);*/
+  margin-right: 1.3rem;
+}
+.navi-center input:focus {
+  outline: none;
+}
+
+
+.navi a {
+  text-decoration: none;
+  color: var(--third-color);
+  font-weight: 400;
+  border: none;
+  size: 1.4rem
+}
+
+.navi .active {
+  color: var(--accent-color);
+  border: white;
+}
+
+
+.navi-left {
+  /*margin-left: 10rem;*/
+  min-width: 15rem;
+}
+
+#logo:hover {
+  filter: drop-shadow(5px 5px 20px var(--accent-color));
+}
+
+.navi-right {
+  display: flex;
+  /*margin-right: 10rem;*/
+  align-items: center;
+  gap: 1.6rem;
+  min-width: 15rem;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+#nav-cart-icon,
+#nav-user-icon,
+#nav-heart-icon {
+  gap: 1rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--third-color);
+  transition: all 0.2s ease-in-out;
+}
+
+#nav-cart-icon span,
+#nav-user-icon span,
+#nav-heart-icon span {
+  margin-left: 0.7rem;
+  color: var(--accent-color);
+  font-size: 1.25rem;
+  display: inline-block;
+  
+}
+
+#nav-cart-icon:hover,
+#nav-user-icon:hover,
+#nav-heart-icon:hover {
+  transform: scale(1.2);
+}
+
+#searchIcon {
+  /*margin-right: -2rem;*/
+  /*margin-top: 0.7rem;*/
+  font-size: 1.2rem;
+  color: var(--third-color);
+  min-width: 1rem !important;
+    
+}
+
+#searchIcon path {
+  min-width: 1rem !important;
+}
